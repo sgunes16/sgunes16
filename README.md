@@ -47,11 +47,14 @@ Right now I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik (
       │       Merkle trees in Go. Shipped SUNTON CRM app for Sunton Makina.
       │
 2025 ─┼─ 🚀  Co-founded citizen.team as CTO — Go backend, Next.js apps,
-      │       k8s/Docker infra, bootstrap agent.
+      │       k8s/Docker infra, bootstrap agent. Authored the SRS for
+      │       The Hive (SWE 573) and built the solo prototype.
       │
 2026 ─┴─ 🤖  Joined Anadolu Hayat Emeklilik as Assistant Enterprise
-              Architect — BPMN, ISO 9001, process design. Building Frameval
-              on the side. Wrapping the MS.
+              Architect — BPMN, ISO 9001, process design. The Hive scaled
+              into the SWE 574 team build (Apiary) — I owned CI/CD,
+              backend, and project management. Building Frameval on the
+              side. Wrapping the MS.
 ```
 
 ---
@@ -68,6 +71,11 @@ Right now I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik (
 
 **🌐 Product & full-stack**
 - **citizen.team** — co-founded as CTO (Oct 2025 – Mar 2026). A full SaaS surface: Go backend with custom Traefik middleware, k8s/Docker infra, a bootstrap agent, Next.js apps for the dashboard, blog, and landing, plus a separate auth service. Core repo (`citizenteam/citizen`) is archived now — but it was a real production build, not a weekend prototype.
+
+**🐝 The Hive — community service-exchange platform**
+A two-semester arc at Boğaziçi that started as a solo design and grew into a multi-platform team product.
+- **[`SWE 573 — solo prototype`](https://github.com/sgunes16/573repo)** *(authored the SRS)* — designed Hive from scratch as a non-profit, community-oriented TimeBank where users post offers/wants, agree via *handshakes*, rate each other, and exchange services valued equally in time. Spec covered roles (anonymous / registered / admin), fuzzy-location privacy, GDPR-aware data handling, a forum, scaling and uptime constraints. Django + PostgreSQL + React + TypeScript + Chakra UI. Initial backend in `backend/hive` + `rest_api`.
+- **[`SWE 574-3 — Apiary, the team build`](https://github.com/SWE-574/SWE-574-3)** — same idea, scaled to a real product across web + mobile + backend with 5 contributors. **My ownership: CI/CD (DevOps), backend, project management.** Django/DRF + Channels for real-time, React + Vite web client, React Native + Expo mobile client. Local infra on Docker Compose (PostgreSQL/PostGIS, Redis, MinIO, Nginx). Offer/request/event lifecycle, search and ranking, badges/achievements for trust, push notifications, admin moderation, full test traceability matrix. Feature-branch flow with required CI gates and PR reviews before merge.
 
 </td>
 <td width="50%" valign="top">
@@ -92,8 +100,10 @@ Right now I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik (
 ### 🎓 Academic
 
 **MS, Software Engineering — Boğaziçi University**
-- Team project: [`SWE-574/SWE-574-3`](https://github.com/SWE-574/SWE-574-3) — team software development with Suzan UskUdarlı, Spring 2026.
-- Coursework: SWE 573 [`573repo`](https://github.com/sgunes16/573repo.git), SWE 580 (`580-HW`, `swe580_term_project_spring26`), SWE 599, CMPE 485.
+- **The Hive — two-semester project arc** with Suzan Üsküdarlı:
+  - **SWE 573** — [`573repo`](https://github.com/sgunes16/573repo) — solo authoring of the Hive concept, SRS, and first prototype (Django + PostgreSQL + React/TS, TimeBank model with offers/wants/handshakes/ratings, forum, fuzzy-location privacy, GDPR-aware constraints).
+  - **SWE 574** — [`SWE-574/SWE-574-3`](https://github.com/SWE-574/SWE-574-3) — Apiary, the team build of Hive across web + React Native mobile + Django/DRF backend with Postgres/PostGIS, Redis, MinIO, Nginx. Owned CI/CD, backend, and project management for a 5-person team.
+- Other coursework: SWE 580 (`580-HW`, `swe580_term_project_spring26`), SWE 599, CMPE 485.
 
 **BS, Management Engineering — Istanbul Technical University**
 
@@ -108,13 +118,20 @@ Right now I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik (
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostGIS-336791?style=flat&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/MinIO-C72E49?style=flat&logo=minio&logoColor=white" />
   <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/Traefik-24A1C1?style=flat&logo=traefik-mesh&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white" />
   <img src="https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white" />
