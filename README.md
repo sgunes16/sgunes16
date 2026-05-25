@@ -18,7 +18,7 @@
 
 I'm an engineer who likes building end-to-end — from the gnarly backend bits to the pixels users actually touch. My day-to-day floats between **Go**, **TypeScript/Next.js**, and **Python**, but the through-line is the same: ship something useful, then make it sharper.
 
-Professionally I spent time at **Ford Otosan** doing **Python-based data science & engineering-intelligence** work — predictive models, analytics tooling and decision-support systems for an industrial setting. That's where I learned what "data ile çalışmak" actually feels like outside a notebook.
+Professionally I spent time at **Ford Otosan** doing **Python-based data science & data-engineering & business intelligence** work — predictive models, analytics tooling and decision-support systems for an industrial setting. That's where I learned what "works with data" actually feels like outside a notebook.
 
 Today my attention sits at the intersection of **agentic systems**, **product engineering**, and the **infrastructure** that makes both real.
 
