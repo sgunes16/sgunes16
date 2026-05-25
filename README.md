@@ -93,7 +93,7 @@ Right now I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik (
 
 **MS, Software Engineering — Boğaziçi University**
 - Team project: [`SWE-574/SWE-574-3`](https://github.com/SWE-574/SWE-574-3) — team software development with Suzan UskUdarlı, Spring 2026.
-- Coursework: SWE 573 (`573repo`), SWE 580 (`580-HW`, `swe580_term_project_spring26`), SWE 599, CMPE 485.
+- Coursework: SWE 573 [`573repo`](https://github.com/sgunes16/573repo.git), SWE 580 (`580-HW`, `swe580_term_project_spring26`), SWE 599, CMPE 485.
 
 **BS, Management Engineering — Istanbul Technical University**
 
