@@ -160,6 +160,5 @@ A two-semester arc at Boğaziçi that started as my solo design and ended up a f
 ### 📫 Reach me
 
 <p>
-  <a href="https://citizen.team"><img src="https://img.shields.io/badge/citizen.team-7C3AED?style=flat&logo=safari&logoColor=white" /></a>
-  <a href="mailto:sgunes.itu@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:mustafaselmangunes@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
 </p>
