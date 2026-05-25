@@ -66,13 +66,13 @@ Right now I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik (
 
 **🤖 Agents & evaluation**
 
-- **[Frameval](https://github.com/sgunes16/Frameval)** — most "is this agent any good?" answers are a single score off some benchmark, and in practice that's almost useless. Frameval does the boring honest version instead: run a harness across a bunch of dimensions, look at *how* it fails on each one, and build a profile you can actually reason about. The bet is that picking a harness should feel like picking a database, not picking a leaderboard.
+- **[Frameval](https://github.com/sgunes16/Frameval)** — instead of reducing an agentic coding harness to a single benchmark number, it builds a behavioral profile across multiple dimensions and classifies how each one fails. The goal is to make *"which harness should I use"* a real engineering question instead of a leaderboard click.
 - Internal MCP and agent tooling (`citizenteam/mcp`).
 
 **🌐 Product & full-stack**
 
-- **citizen.team** — co-founded as CTO (Oct 2025 – Mar 2026). Go backend with a bit of custom Traefik middleware, k8s + Docker, a bootstrap agent, Next.js for the dashboard, blog, and landing, plus a separate auth service. The main repo (`citizenteam/citizen`) is archived now. It was a real product build, not a weekend prototype — and most of what I learned was less about Go and more about how quickly an MVP can outgrow its first design.
-- **SUNTON — CRM for Sunton Makina** ([`sunton`](https://github.com/sgunes16/sunton)) — shipped in 2024. A Capacitor app, so the same JS codebase runs on web, iOS, and Android, deployed through Netlify. Built it as a small CRM for the company — orders, customers, the day-to-day things they were tracking in spreadsheets. Good reminder that for a small business the win isn't "great architecture," it's "the people using it every day stop hating their old tool."
+- **citizen.team** — co-founded as CTO (Oct 2025 – Mar 2026). A full SaaS surface: Go backend with custom Traefik middleware, k8s/Docker infra, a bootstrap agent, Next.js apps for the dashboard, blog, and landing, plus a separate auth service. Core repo (`citizenteam/citizen`) is archived now — but it was a real production build, not a weekend prototype.
+- **SUNTON CRM** ([`sunton`](https://github.com/sgunes16/sunton)) — small CRM for Sunton Makina, shipped 2024. Capacitor app — one JS codebase running on web, iOS, and Android, deployed via Netlify. Orders, customers, the stuff they used to track in spreadsheets.
 
 **🐝 The Hive — a community time-bank**
 
@@ -86,17 +86,17 @@ A two-semester arc at Boğaziçi that started as my solo design and ended up a f
 
 **📊 Data & intelligence**
 
-- **Ford Otosan** — Tableau + Oracle SQL for production scheduling BI, Python and Selenium for the manual report flows nobody wanted to keep doing, Excel/VBA where it kept earning its place. Most of the value came from removing friction, not from any one fancy model.
-- **Energy forecasting (2020)** — Python ML for electricity prices and consumption/production time series, used in a biogas plant pre-feasibility report.
+- **Ford Otosan** — Tableau + Oracle SQL for production scheduling BI, Python and Selenium for automating reports and manual workflows, Excel/VBA where it actually paid off.
+- **Energy forecasting (2020)** — Python ML for electricity price prediction and consumption/production time series, used in a biogas plant pre-feasibility report.
 - Smaller things in the same family — currency trackers, a vocabulary app, term ML projects.
 
 **⛓️ Web3 & on-chain data**
 
-- USDC cross-chain transfer flows, an EVM indexer on top of reth, subgraph-based marketplace analytics, NFT holder tooling, on-chain campaign integrations. Earlier DeFi swap-bot prototypes live in the same corner. Some of these became actual tools, some were "let's see if this even works" experiments — both kinds taught me something.
+- USDC cross-chain transfer flows, an EVM indexer on top of reth, subgraph-based marketplace analytics, NFT holder tooling, on-chain campaign integrations. Earlier DeFi swap-bot prototypes live in the same corner.
 
 **🎮 Games & graphics**
 
-- Where I started — small Unity / C# projects I actually finished. Followed up with CMPE 485 game programming at Boğaziçi (shaders included), which was equal parts fun and humbling.
+- Where I started — small Unity / C# projects, finished and shipped. Followed up with CMPE 485 game programming (shaders included).
 
 </td>
 </tr>
