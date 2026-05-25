@@ -1,7 +1,7 @@
 <h1 align="center">Selman Güneş</h1>
 
 <p align="center">
-  <i>Software & systems builder</i><br/>
+  <i>Software & systems builder </i><br/>
   <sub>Istanbul · MS Software Engineering @ Boğaziçi · BS Management Engineering @ ITU</sub>
 </p>
 
@@ -16,11 +16,11 @@
 
 ### 👋 About
 
-I didn't grow up writing code. I came to it from management engineering, picked up Python and C# in 2018 because I needed them for something, and never really stopped. My first proper ML work was in 2020 — predicting electricity prices and forecasting energy time series for a biogas plant pre-feasibility study. From there I drifted into Unity, then Web3 indexers, then Go backends and Next.js apps, and lately I keep ending up in the weeds of how to evaluate coding agents. I like understanding a system top to bottom more than I like specializing in one layer of it.
+I came into software from a management engineering background. Started learning **Python and C# in 2018** during undergrad, did my first real ML work in 2020 (electricity price prediction and energy time-series forecasting for a biogas plant pre-feasibility study), and have been compounding from there. Over the years that turned into Unity, then Web3 indexers, then Go backends and Next.js fullstack, and lately agent evaluation. The connecting thread is that I'd rather understand the whole vertical of a system than only its middle.
 
-I spent about two years at **Ford Otosan** in constraint management and vehicle scheduling. A lot of it was BI on Tableau + Oracle SQL, a lot of it was Python and Selenium replacing things people used to do by hand, and a surprising amount of it was Excel/VBA that quietly carried half the workflow. Working with data inside a manufacturing org cured me of the idea that the model is ever the hard part.
+At **Ford Otosan** I spent nearly two years on the constraint management and vehicle scheduling side — BI dashboards on **Tableau + Oracle SQL**, **Python and Selenium** for the things people used to do by hand, plus a healthy amount of **Excel/VBA** where it earned its keep. Working with data inside a manufacturing org teaches you fast that the hard part is almost never the model.
 
-These days I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik — BPMN, ISO 9001, enterprise process design. On the side I'm building **Frameval** and finishing the MS at Boğaziçi.
+Right now I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik (BPMN, ISO 9001, enterprise process design), building **Frameval** as a side research project on how to actually evaluate agentic coding harnesses, and wrapping the MS at Boğaziçi.
 
 ---
 
@@ -66,19 +66,19 @@ These days I'm an **Assistant Enterprise Architect** at Anadolu Hayat Emeklilik 
 
 **🤖 Agents & evaluation**
 
-- **[Frameval](https://github.com/sgunes16/Frameval)** — most "is this agent any good?" answers are a single score off some benchmark, and I've found that almost useless in practice. Frameval tries to do the boring honest version instead: run a harness across a bunch of dimensions, look at *how* it fails on each one, and produce a profile you can actually reason about. The bet is that picking a harness should feel like picking a database, not picking a leaderboard.
+- **[Frameval](https://github.com/sgunes16/Frameval)** — most "is this agent any good?" answers are a single score off some benchmark, and in practice that's almost useless. Frameval does the boring honest version instead: run a harness across a bunch of dimensions, look at *how* it fails on each one, and build a profile you can actually reason about. The bet is that picking a harness should feel like picking a database, not picking a leaderboard.
 - Internal MCP and agent tooling (`citizenteam/mcp`).
 
 **🌐 Product & full-stack**
 
-- **citizen.team** — co-founded as CTO (Oct 2025 – Mar 2026). Go backend with a bit of custom Traefik middleware, k8s + Docker, a bootstrap agent, Next.js for the dashboard, blog, and landing, plus a separate auth service. The main repo (`citizenteam/citizen`) is archived now. It was a real product build — not a weekend prototype — and most of what I learned was less about Go and more about how quickly an MVP can outgrow its first design.
-- **SUNTON — CRM for Sunton Makina** ([`sunton`](https://github.com/sgunes16/sunton)) — shipped in 2024. A Capacitor app so the same JS codebase runs on the web, iOS, and Android, deployed through Netlify. Built it as a small CRM for the company — orders, customers, the day-to-day things they were tracking in spreadsheets. Useful reminder that for a small business the win isn't "great architecture," it's "the people who use it every day stop hating their old tool."
+- **citizen.team** — co-founded as CTO (Oct 2025 – Mar 2026). Go backend with a bit of custom Traefik middleware, k8s + Docker, a bootstrap agent, Next.js for the dashboard, blog, and landing, plus a separate auth service. The main repo (`citizenteam/citizen`) is archived now. It was a real product build, not a weekend prototype — and most of what I learned was less about Go and more about how quickly an MVP can outgrow its first design.
+- **SUNTON — CRM for Sunton Makina** ([`sunton`](https://github.com/sgunes16/sunton)) — shipped in 2024. A Capacitor app, so the same JS codebase runs on web, iOS, and Android, deployed through Netlify. Built it as a small CRM for the company — orders, customers, the day-to-day things they were tracking in spreadsheets. Good reminder that for a small business the win isn't "great architecture," it's "the people using it every day stop hating their old tool."
 
 **🐝 The Hive — a community time-bank**
 
 A two-semester arc at Boğaziçi that started as my solo design and ended up a five-person product across web, mobile, and backend.
 
-- **[Solo prototype — SWE 573](https://github.com/sgunes16/573repo)** — I designed the whole thing and wrote the SRS: a non-profit time-bank where neighbors trade services valued in hours, not money. You post what you can offer or what you need, agree on a handshake, then rate each other after. A lot of the work was the unglamorous stuff — fuzzy locations so people don't dox each other, anonymous vs registered vs admin roles, GDPR-aware data handling, a forum, uptime constraints. First build on Django + PostgreSQL + React + TS.
+- **[Solo prototype — SWE 573](https://github.com/sgunes16/573repo)** — I designed the whole thing and authored the SRS: a non-profit time-bank where neighbors trade services valued in hours, not money. You post what you can offer or what you need, agree on a handshake, then rate each other after. A lot of the work was the unsexy stuff — fuzzy locations so people don't dox each other, anonymous vs registered vs admin roles, GDPR-aware data handling, a forum, uptime constraints. First build on Django + PostgreSQL + React + TS.
 - **[Apiary — SWE 574 team build](https://github.com/SWE-574/SWE-574-3)** — same idea, scaled to a real product with five people across a web client, a React Native mobile app, and a Django/DRF backend tying it together. I owned CI/CD, backend, and project management — which meant I was equally responsible for the things that shipped and the things that didn't get merged because they failed the pipeline. We ran locally on Docker Compose (Postgres/PostGIS, Redis, MinIO, Nginx), worked feature-branch with required CI gates and PR reviews, and built the social layer end-to-end: offer/request/event lifecycle, search, ratings, badges, push notifications, admin moderation. Most of what I learned this semester wasn't about Django — it was about getting five different schedules and skill levels to converge on a working build.
 
 </td>
@@ -86,13 +86,13 @@ A two-semester arc at Boğaziçi that started as my solo design and ended up a f
 
 **📊 Data & intelligence**
 
-- **Ford Otosan** — Tableau + Oracle SQL for production scheduling BI, Python and Selenium replacing manual report flows, Excel/VBA where it kept earning its place. Most of the value came from removing friction, not from any one fancy model.
+- **Ford Otosan** — Tableau + Oracle SQL for production scheduling BI, Python and Selenium for the manual report flows nobody wanted to keep doing, Excel/VBA where it kept earning its place. Most of the value came from removing friction, not from any one fancy model.
 - **Energy forecasting (2020)** — Python ML for electricity prices and consumption/production time series, used in a biogas plant pre-feasibility report.
 - Smaller things in the same family — currency trackers, a vocabulary app, term ML projects.
 
 **⛓️ Web3 & on-chain data**
 
-- USDC cross-chain transfer flows, an EVM indexer on top of reth, subgraph-based marketplace analytics, NFT holder tooling, on-chain campaign integrations. Earlier DeFi swap-bot prototypes live in the same corner. A few of these turned into actual tools, a few were "let's see if this even works" experiments — both kinds taught me something.
+- USDC cross-chain transfer flows, an EVM indexer on top of reth, subgraph-based marketplace analytics, NFT holder tooling, on-chain campaign integrations. Earlier DeFi swap-bot prototypes live in the same corner. Some of these became actual tools, some were "let's see if this even works" experiments — both kinds taught me something.
 
 **🎮 Games & graphics**
 
@@ -108,7 +108,7 @@ A two-semester arc at Boğaziçi that started as my solo design and ended up a f
 
 **MS, Software Engineering — Boğaziçi University**
 
-- The Hive — two-semester project arc with Suzan Üsküdarlı: `SWE 573` (solo prototype) → `SWE 574-3 / Apiary` (5-person team build). The full story lives under *What I'm building* above.
+- The Hive — two-semester project arc with Suzan Üsküdarlı: `SWE 573` (solo prototype) → `SWE 574-3 / Apiary` (5-person team build). The full story lives under What I'm building above.
 - Other coursework: SWE 580 (`580-HW`, `swe580_term_project_spring26`), SWE 599, CMPE 485.
 
 **BS, Management Engineering — Istanbul Technical University**
